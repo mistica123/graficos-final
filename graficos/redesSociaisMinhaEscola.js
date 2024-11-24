@@ -1,7 +1,7 @@
 import { getCSS, criarGrafico, incluirTexto } from "./common.js"
 
 async function redesFavoritasMundo() {
-    const url = 'https://raw.githubusercontent.com/kuush12/minha-api/refs/heads/main/preferidasescola.json'
+    const url = 'https://raw.githubusercontent.com/mistica123/api-s/refs/heads/main/minha-api-main/preferidasescola.json'
     const res = await fetch(url)
     const dados = await res.json()
     const redes = Object.keys(dados)
