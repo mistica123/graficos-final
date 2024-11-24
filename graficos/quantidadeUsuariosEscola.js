@@ -1,7 +1,7 @@
 import { getCSS, tickConfig, criarGrafico } from "./common.js"
 
 async function quantidadeUsuariosPorRede() {
-    const url = 'https://raw.githubusercontent.com/kuush12/minha-api/refs/heads/main/dadosescola.json'
+    const url = 'https://raw.githubusercontent.com/mistica123/api-s/refs/heads/main/minha-api-main/dadosdaescola.json'
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = Object.keys(dados)
